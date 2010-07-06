@@ -1,0 +1,15 @@
+# This is the patterns file with the input and teacher output values
+# in the form input_1, input_2, ... , input_N , output_1, output_2, ... , output_M
+# it has to reside in the same directory as the main program
+# and the dimensions of input and output have to match those defined in the mlp
+0,-5,0,-5,1.0
+0,-4,0,-4,0.8
+0,-3,0,-3,0.6
+0,-2,0,-2,0.4
+0,-1,0,-1,0.2
+0,0,0,0,0.0
+0,1,0,1,-0.2
+0,2,0,2,-0.4
+0,3,0,3,-0.6
+0,4,0,4,-0.8
+0,5,0,5,-1.0

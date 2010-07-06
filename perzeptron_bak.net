@@ -1,0 +1,18 @@
+# This file contains the net topology (and all weights),
+# it has to reside in the same directory as the main program
+# First line: The net topology in the form N-H-M
+# Second line: Bias weights to hidden layer
+# Following N lines: weights from layer N to layer H, w_n_h with row=n, column=h
+# Following (N+1)th line: Bias weights to output layer
+# Following H lines: weights from layer H to layer M, w_h_m with row=h, column=m
+4-4-3
+-7,-9,-3,-4
+0.6,0.5,0.1,0.2
+0.8,0.2,0.3,0.5
+0.3,0.9,0.4,0.6
+0.2,0.8,0.5,0.7
+-6,-4,-6
+0.5,0.1,0.2
+0.8,0.3,0.5
+0.3,0.9,0.4
+0.2,0.5,0.7
