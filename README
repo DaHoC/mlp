@@ -1,0 +1,20 @@
+Multi-Layer Perceptron program (mlp class and calling main routine)
+
+@author Jan Hendriks
+@date 2009-11-08
+@copyright GPLv3 2010 Jan Hendriks
+@url http://gawe-design.de
+
+Compiled and tested with a recent Sun Microsystems JDK: Java(TM) SE Runtime Environment (build 1.6.0_16-b01) and JRE 6u17 under linux x64
+
+All function and variable names should be self-explanatory
+
+Usage:
+Compile with e.g.
+$ javac main.java
+Make sure the 'train.dat' file resides in the same directory as the main.class
+Also, the directory has to be writable for the 'epocheerror.dat'
+Execute the program with e.g.
+$ java main
+Or alternatively, if it generates too much output
+$ java main > /dev/null
